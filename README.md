@@ -1,14 +1,15 @@
-#Linux Keyboard&Mouse Key Input Remapper#
+Linux Keyboard&Mouse Key Input Remapper
 -----
 ## Background
 My *Lenovo laptop*'s both CTRL key is broken and hard to fix.
 So I brought one 'Logitech M590' mouse with programmble keys.
 
 In Windows is okay to redefine keycode, but linux
-does not. After much work I found it's impossible to do it without coding,
-so I write this.
+does not.
 
-## Feature
+After much work I found it's hardly impossible to do it without coding, so I wrote this.
+
+## Features
 
  - remap key by conf file
  - specific remap device, won't affect other input device
@@ -59,7 +60,7 @@ MiddleBtn=Enter
 ```
 
 Then you can do a simple test by run `KeyRemapper`, if it works, 
-write your own systemctl or rc.local line to make it start as soon as boot completed.
+write your own systemd or rc.local line to make it start as soon as boot completed.
 
 
 ## Further More
